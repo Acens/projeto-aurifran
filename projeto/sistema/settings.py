@@ -58,6 +58,8 @@ ROOT_URLCONF = 'sistema.urls'
 
 WSGI_APPLICATION = 'sistema.wsgi.application'
 
+MEDIA_ROOT = 'core/upload_files'
+
 
 
 
