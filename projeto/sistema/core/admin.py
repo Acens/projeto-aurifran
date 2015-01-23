@@ -5,12 +5,12 @@ from django.contrib.admin.options import ModelAdmin
 # Register your models here.
 
 class AdminProfessional(ModelAdmin):
-	list_display = ('nome','email','rua','bairro','numero','senha','foto','area_de_atuacao','criado_em',)
+	list_display = ('nome','email','rua','bairro','numero','foto','area_de_atuacao','criado_em',)
 	search_fields = ('nome','area_de_atuacao')
 	list_filter = ('nome','rua','bairro','area_de_atuacao')
 
 class AdminClient(ModelAdmin):
-	list_display = ('nome','email','rua','bairro','numero','senha','foto',)
+	list_display = ('nome','email','rua','bairro','numero','foto',)
 	search_fields = ('nome',)
 
 admin.site.register(Cliente,AdminClient)
