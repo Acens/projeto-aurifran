@@ -4188,6 +4188,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: -15px;
+    padding-top: 21px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -5502,7 +5503,7 @@ button.close {
 }
 .modal {
   position: fixed;
-  top: 80px;
+  top: 110px;
   right: 0;
   bottom: 0;
   left: 0;
