@@ -6,6 +6,7 @@ urlpatterns = patterns('',
     url(r'^$', 'sistema.core.views.home', name='home'),
     url(r'^profissionais/$', 'sistema.core.views.profissionais', name='profissionais'),
     url(r'^pacientes/$', 'sistema.core.views.pacientes', name='pacientes'),
+    url(r'^perfil/$', 'sistema.core.views.perfil', name='perfil'),
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),

@@ -10,3 +10,6 @@ def profissionais(request):
 
 def pacientes(request):
 	return render(request, 'paciente.html',{})
+
+def perfil(request):
+	return render(request, 'perfil.html',{})
