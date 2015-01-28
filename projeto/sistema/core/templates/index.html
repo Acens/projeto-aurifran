@@ -43,11 +43,11 @@
     <!-- ******HEADER****** --> 
     <header class="header navbar-fixed-top">  
         <div class="container">            
-            <h1 class="logo pull-left">
+            <!--<h1 class="logo pull-left">
                 <a class="scrollto" href="#promo">
                     <img src="{{STATIC_URL}}assets/images/logo.jpg" class="col-sm-2">
                 </a>
-            </h1><!--//logo-->              
+            </h1>--><!--//logo-->              
             <nav id="main-nav" class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -73,16 +73,18 @@
     
     <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header">
+        <div class="col-sm-12">
+            <img src="{{STATIC_URL}}assets/images/logo.jpg" class="col-sm-offset-5 col-sm-2">
+        </div>
         <div class="container text-center">
-            <h2 class="title">SIASD<span class="highlight">o</span></h2>
-            <p class="intro">Sistema integrado de assistência domiciliar.</p>
+            <br><br><br><br>
             <div class="btns">
                 <a class="btn btn-cta-primary" href="">Encontre profissionais</a>
-            </div><br><br><br><br><br><br>
-            <p>Cadastre-se:</p>
+            </div><br><br><br><br>
+            <p class="intro">Cadastre-se:</p>
             <div class="btns">
                 <a class="btn btn-cta-secondary" href="profissionais">Profissional</a>
-                <a class="btn btn-cta-primary" href="pacientes">Paciente</a>
+                <a class="btn btn-cta-secondary" href="pacientes">Paciente</a>
             </div>
             <ul class="meta list-inline">
             </ul><!--//meta-->
@@ -434,7 +436,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg">Logar</button>
+                        <button type="submit" class="btn btn-cta-primary btn-lg">Logar</button>
                     </form>
                 </div>
                 <div class="modal-footer">
